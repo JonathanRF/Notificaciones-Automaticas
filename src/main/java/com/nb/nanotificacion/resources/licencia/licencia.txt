@@ -1,0 +1,76 @@
+NA Notificaciones V1.1
+Aplicación de escritorio para mostrar notificaciones en formato CRON
+Copyright (C) 2018  Jonathan Ramos Fragoso
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+----------- H2 Database Engine -----------
+
+http://www.h2database.com/html/main.html
+
+H2 is dual licensed and available under the MPL 2.0 (Mozilla Public License Version 2.0) or under the EPL 1.0 (Eclipse Public License). There is a license FAQ for both the MPL and the EPL.
+
+You can use H2 for free.
+You can integrate it into your applications (including in commercial applications) and distribute it.
+Files containing only your code are not covered by this license (it is 'commercial friendly').
+Modifications to the H2 source code must be published.
+You don't need to provide the source code of H2 if you did not modify anything.
+If you distribute a binary that includes H2, you need to add a disclaimer of liability - see the example below.
+However, nobody is allowed to rename H2, modify it a little, and sell it as a database engine without telling the customers it is in fact H2. This happened to HSQLDB: a company called 'bungisoft' copied HSQLDB, renamed it to 'RedBase', and tried to sell it, hiding the fact that it was in fact just HSQLDB. It seems 'bungisoft' does not exist any more, but you can use the Wayback Machine and visit old web pages of http://www.bungisoft.com.
+
+About porting the source code to another language (for example C# or C++): converted source code (even if done manually) stays under the same copyright and license as the original code. The copyright of the ported source code does not (automatically) go to the person who ported the code.
+
+If you distribute a binary that includes H2, you need to add the license and a disclaimer of liability (as you should do for your own code). You should add a disclaimer for each open source library you use. For example, add a file 3rdparty_license.txt in the directory where the jar files are, and list all open source libraries, each one with its license and disclaimer. For H2, a simple solution is to copy the following text below. You may also include a copy of the complete license.
+
+More: 
+https://www.mozilla.org/en-US/MPL/2.0/
+
+----------- QUARTZ 2.2.x -----------
+
+Quartz License and Copyright
+Quartz Scheduler source code and documentation are Copyright (c) Terracotta, Inc.
+
+Quartz Scheduler is licensed under the Apache License, Version 2.0 (the “License”); 
+you may not use Quartz binaries or source in whole or in part except in compliance with the License.
+You may obtain a copy of the License at:
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is
+distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+----------- Hibernate -----------
+
+Free as in Speech
+Hibernate projects are licensed under either the LGPL 2.1 or the ASL 2.0. Hibernate is Free Software.
+
+You can find under which a specific project is released below its menu or in the code source.
+
+LGPL 2.1
+Most Hibernate projects are released under the LGPL v2.1.
+
+The LGPL is sufficiently flexible to allow the use of Hibernate in both open source and commercial projects. The LGPL guarantees that Hibernate and any modifications made to Hibernate will stay open source, protecting our and your work. Anyone who wanted to release Hibernate under a different license would have to obtain permission from hundreds of people who have contributed code to Hibernate, which would be impractical. Hibernate is and will be open source.
+
+The use of the unmodified Hibernate binary of course never affects the license of your application or distribution. You will never have to pay money to any commercial entity for using or integrating Hibernate.
+
+If you modify Hibernate and redistribute your modifications, the LGPL applies. Please submit any modifications to our issue tracking system for review and possible inclusion in the upstream Hibernate project(s).
+
+ASL 2.0
+Some Hibernate projects are released under the more permissive ASL 2.0.
+
+This is mostly due to our work with the Java Community Process. Implementing a reference implementation in practice requires such liberal license (or a fully proprietary one strangely enough).
+
+Every now and then we do evaluate the option to start or relicense certain projects under liberal licenses like the ASL but our DNA is with the LGPL. So the reasons have to be solid.
